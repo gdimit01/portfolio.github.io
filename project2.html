@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Project 2 - A countdown timer</title>
     <meta charset="utf-8" />
+    <title>Project 2 - A countdown timer</title>
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript
-      ><link rel="stylesheet" href="assets/css/noscript.css"
-    /></noscript>
+    <noscript>
+      <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
   </head>
+
   <body class="is-preload">
     <div id="wrapper" class="fade-in">
+      <!-- Header -->
       <header id="header">
         <a href="index.html" class="logo">Massively</a>
       </header>
 
+      <!-- Navigation -->
       <nav id="nav">
         <ul class="links">
           <li><a href="index.html">Home</a></li>
@@ -36,6 +41,7 @@
         </ul>
       </nav>
 
+      <!-- Main Content -->
       <div id="main">
         <article class="post">
           <header>
@@ -44,6 +50,7 @@
             </div>
           </header>
 
+          <!-- Tabs -->
           <div class="tab">
             <button class="tablinks" onclick="openTab(event, 'sourceCode')">
               Source Code
@@ -53,13 +60,16 @@
             </button>
           </div>
 
+          <!-- Source Code Tab Content -->
           <div id="sourceCode" class="tabcontent">
             <h3>Source Code</h3>
             <pre>
 // Your source code goes here
-            </pre>
+                    </pre
+            >
           </div>
 
+          <!-- Images Tab Content -->
           <div id="images" class="tabcontent" style="display: none">
             <h3>Images</h3>
             <img src="path/to/image1.jpg" alt="Image 1" />
@@ -69,10 +79,12 @@
         </article>
       </div>
 
+      <!-- Footer -->
       <footer id="footer">
         <!-- Add your footer content here -->
       </footer>
 
+      <!-- Copyright Info -->
       <div id="copyright">
         <ul>
           <li>&copy; Untitled</li>
@@ -81,6 +93,7 @@
       </div>
     </div>
 
+    <!-- JavaScript -->
     <script>
       function openTab(evt, tabName) {
         var i, tabcontent, tablinks;
@@ -97,7 +110,7 @@
       }
     </script>
 
-    <!-- Scripts -->
+    <!-- External Scripts -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/jquery.scrollex.min.js"></script>
     <script src="assets/js/jquery.scrolly.min.js"></script>
